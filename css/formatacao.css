@@ -1,0 +1,174 @@
+/* ============================================== PADRÃO ================================================ */
+
+@charset="UTF-8";
+
+body {
+    overflow: scroll;
+    overflow-x:hidden;    
+}
+
+.container {
+    height: 100%;
+}
+
+main {
+    margin-top: 8em;
+    min-height: 100%;
+    line-height: 2em;    
+    font-family: 'Handlee', cursive;
+    font-size: 100%;
+}
+
+.welcome h1 {
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+/* ============================================== INDEX ================================================ */
+
+.carousel {
+    margin: 7em 0;
+
+}
+
+.carousel-inner>.item>img {
+    min-width: 100%; /*ESTE COMANDO SERVE PARA FAZER A IMAGEM PEGAR TODA A LARGURA DE UM CARROUSEL - NUNCA SE ESQUECER DELE!!!!!!!!!!!*/
+}
+
+
+/* ============================================== TEMAS ================================================ */
+
+.description-temas p{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em 0 3em 0;
+}
+
+.article-temas {
+    border-bottom: 1px dashed rgba(0,0,0,0.2);
+    margin-bottom: 3em;
+
+}
+
+.article-temas h2 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+.article-temas time {
+    font-size: 1em;
+}
+
+.article-temas p {
+    font-size: 1.5em;
+}
+
+/* ============================================== EVENGELHO NO LAR ================================================ */
+
+.article-enl {
+    margin: 7em 0;
+}
+
+.article-enl h2 {
+    font-size: 2em;
+    padding-left: 1em;
+    color: #D20000;
+}
+
+.article-enl p, .olist-enl, ulist-enl {
+    font-size: 1.3em;
+    text-indent: 1.5em;
+    border-bottom: 1px dashed rgba(0,0,0,0.2);    
+}
+
+.olist-enl {
+    list-style: decimal;
+    padding-left: 2.6em;
+}
+
+.ulist-enl {
+    list-style: lower-latin;
+    padding-left: 1.8em;
+}
+
+.bibliography {
+    text-align: right;
+}
+
+
+/* ============================================== PRECES ================================================ */
+
+.indice, .main-side {
+    margin-top: 3em;
+}
+
+.indice {
+    display: block;
+    float: left;
+	width: 30%;
+	padding-right: 1em;
+    margin-top: 5em;
+}
+
+.indice h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #D20000;
+    margin-bottom: 1em;
+}
+
+.main-side {
+    display: block;
+	width: 70%;
+    float: right;
+	padding: 10px;
+    margin-top: 5em;
+}
+
+.ulist-p {
+    font-size: 1.3em;
+}
+
+.iframe {
+    width: 100%;
+	height: 49em;
+	border: none;
+}
+
+
+.orientacao p {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: -5.5em;
+}
+
+article#elevacao {
+    margin: 300em 0;
+}
+
+article#vibracao-final {
+    margin: 300em 0;
+}
+
+article#vibracao-das-22 {
+    margin: 300em 0;
+}
+
+article#prece-aprendizes {
+    margin: 300em 0;
+}
+
+.music h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #D20000;    
+}
+
+.format {
+    font-size: 1.3em;
+}
+
+.article {
+    margin-bottom: 50em;
+}
